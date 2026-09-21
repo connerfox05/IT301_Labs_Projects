@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        #flexparent{
+            display: flex;
+            height:100vh;
+            justify-content: space-evenly;
+            flex-direction:row;
+            align-items:center;
+        }
+        div div{
+            font-size: x-large;
+            height: 100px;
+            width: 200px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="flexparent">
+        <img id="child1" src="https://picsum.photos/150/150?random=1">
+        <img id="child2" src="https://picsum.photos/250/250?random=2">
+        <img id="child3" src="https://picsum.photos/150/150?random=3">
+
+    </div>
+</body>
+</html>
