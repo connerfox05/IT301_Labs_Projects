@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10</title>
+</head>
+<body>
+    <script>
+        
+let bill;
+let message = "Enter the total restaurant bill amount:";
+
+do {
+    total = prompt(message);
+
+    if (total == "" || total < 0  || Number(total) === 0) {
+        message = "The bill must be greater than zero. Please enter a valid bill amount:";
+    } else if (Number(total) < 0) {
+        message = "Negative amounts are not allowed. Please enter a positive bill amount:";
+    } else if (isNaN(Number(total))) {
+        message = "Invalid input. Please enter a valid number:";
+    }
+
+}
+
+    </script>
+    
+</body>
+</html>
