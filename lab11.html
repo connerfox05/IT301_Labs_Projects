@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 11</title>
+    <style>
+        #box{
+            background-color: blue;
+            padding: 5px;
+            width: 150px;
+
+        }
+        #edge{
+            height: 100px;
+            width: 200px;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+    </style>
+</head>
+<body>
+    <p id ="box"> Click Me! 😊</p>
+    <div id = "edge"></div>
+    <script>
+    const box = document.getElementById('box');
+    function first(event){
+                                box.style.backgroundColor = 'red';
+                                box.textContent = "Ouch!";
+    }
+    box.addEventListener('click', first);
+
+    function second(event){
+                                box.style.backgroundColor = 'yellow';
+                                box.textContent = "Do not click! 😠";
+    }
+    box.addEventListener('mouseover', second);
+
+    function third(event){
+                                box.style.backgroundColor = 'lightgreen';
+                                box.textContent = "Phew! 😌"
+    }
+    box.addEventListener('mouseout', third);
+
+    function fourth(event){
+                                box.style.backgroundColor = 'pink';
+                                box.textContent = "Double trouble! 🤩"
+    }
+    box.addEventListener('dblclick', fourth);
+
+    function fifth(event){
+                                box.style.backgroundColor = 'lightblue';
+                                box.textContent = "I see you! 👀"
+    }
+    edge.addEventListener('mouseover', fifth);
+
+    
+
+
+
+    </script>
+</body>
+</html>
