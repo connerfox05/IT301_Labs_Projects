@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Park Home Page</title>
+    <link rel="stylesheet" href="project-styles.css">
+</head>
+
+<body>
+    <header>
+        <div class= "header-container">
+            <a class= "home" href= "index.html">National Parks</a>
+            <nav>
+                <ul>
+                    <li><a href= "Yosemite.html">Yosemite</a></li>
+                    <li><a href= "Rockies.html">Rocky Mountains</a></li>
+                    <li><a href= "Tetons.html">Grand Tetons</a></li>
+                    <li><a href= "Acadia.html">Acadia</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class= "banner home-banner">
+            <h1>National Parks to Explore</h1>
+            <p>Some of the most beautiful national parks are Yosemite, Rocky Mountains, Grand Tetons, and Acadia and they are all located in America. Learn about their unique attractions, the different landscapes and all of the wildlife that these parks have to offer. </p>
+        </section>
+
+        <section class= "container">
+            <h2 class= "section-title">America's National Parks</h2>
+            <p>This website showcases a diverse selection of some of the National parks in America, all the way from the west coast to the east coast. These national parks have so much to offer to its visitors such as: the hikes that you can go on, the sights that you can see, the different types of wildlife that is roaming these places and just give you more of a reason to outdoors and get away from everything. </p>
+        </section>
+
+       
+        <section class= "container">
+            <h2 class= "section-title">Parks to Explore</h2>
+            <div class= "park-flex">
+
+                <!--  Yosemite -->
+                <div class= "park">
+                    <h3>Yosemite National Park</h3>
+
+                    <img src= "images/Yosemite-cover.webp"
+                    alt= "Upper Fall in Yosemite National park cover picture"
+                    class= "park-image">
+
+                    <p>Yosemite National Park which is located in California is one of the many national parks that is located there. This national park is known for its numerous waterfalls, the very large granite mountains, and beautiful sights. Some of its more famous staples include Half Dome, El Capitan, and the Vernal Fall on the mist trail.</p>
+                    <a class= "button" href= "Yosemite.html">Learn More</a>
+                </div>
+
+                <!-- Rocky Mountains -->
+                 <div class= "park">
+                    <h3>Rocky Mountain National Park</h3>
+
+                    <img src= "images/Rockies-cover.jpg"
+                    alt= "Dream Lake Rocky Mountains National park cover picture"
+                    class= "park-image">
+
+                    <p>Rocky Mountain National Park is located in Colorado and it is known for its beautiful wildlife, snowy mountain tops, and the glass like lakes. Visitors often hike, camp or enjoy the views from the car while driving. </p>
+                    <a class= "button" href= "Rockies.html">Learn More</a>
+                 </div>
+
+                 <!--  Tetons -->
+                <div class= "park">
+                    <h3>Grand Tetons National Park</h3>
+
+                    <img src= "images/Tetons-cover.webp"
+                    alt= "Mountain peaks in Grand Teton National Park cover picture"
+                    class= "park-image">
+
+                    <p>Grand Tetons National Park is located in Wyoming just south of Yellowstone National park. This gorgeous park is known for its jagged mountain peaks that poke into the sky, and the landmarks such as Jenny lake and Snake River. </p>
+                    <a class= "button" href= "Tetons.html">Learn More</a>
+                </div>
+
+                <!--  Acadia -->
+                <div class= "park">
+                    <h3>Acadia National Park</h3>
+
+                    <img src= "images/Acadia-cover.jpg"
+                    alt= "Shore line in Acadia National Park cover picture"
+                    class= "park-image">
+
+                    <p>Acadia National Park is located in Maine along the coast. Acadia has a vast variety of scenery ranging from the shoreline to the forest to the mountains. </p>
+                    <a class= "button" href= "Acadia.html">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <section class= "container">
+            <h2 class= "section-title"> Which National Park Would You Like to Visit the Most?</h2>
+
+        
+
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="park">Which park would you visit?</label>
+                <select id="park" name="park" required>
+                    <option value="">Select a park</option>
+                    <option value="yosemite">Yosemite</option>
+                    <option value="rockies">Rocky Mountains</option>
+                    <option value="tetons">Grand Tetons</option>
+                    <option value="acadia">Acadia</option>
+                </select>
+
+                <button type="submit">Submit</button>
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>National Parks Information Website</p>
+        <p>Learn more at the <a href="https://www.nps.gov/">National Park Service</a>.</p>
+    </footer>
+</body>
+</html>

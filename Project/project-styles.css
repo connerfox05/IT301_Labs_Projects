@@ -1,0 +1,473 @@
+body{
+    margin: 0px;
+    background-color: #F7F5EF;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1, h2, h3{
+    font-family: Georgia, serif;
+}
+
+
+
+/* Heading */
+header{
+    background-color: #8EA66B
+}
+
+.header-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin:auto;
+    
+}
+
+.home{
+    color: white;
+    font-size:26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.home:hover{
+    color: yellow;
+}
+
+
+
+/* NAV bar */
+nav ul{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Home Banner */
+.banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 80px 30px;
+}
+
+.home-banner{
+    background-color: #355342;
+}
+
+.banner h1{
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.banner p{
+    max-width: 800px;
+    margin: auto;
+    font-size: 18px;
+}
+
+/* Intro Section */
+
+.container{
+    box-sizing: border-box;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.section-title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Parks to explore section */
+
+.park-flex{
+    display: flex;
+    gap: 20px;
+}
+
+/* Park Boxes */
+.park{
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #D8E0D8;
+    border-radius: 12px;
+    padding: 25px;
+    position: relative;
+    width: 23%
+}
+
+.park h3{
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.park-image{
+    display: block;
+    width: 100%;
+    height: 240px;
+    border-radius: 6px;
+}
+
+/* Park description */
+.park p{
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* buttons */
+.button{
+    display: inline-block;
+    background-color: #244537;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #37664F
+}
+
+/* form */
+form{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select{
+    box-sizing: border-box;
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    background-color: white;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+button{
+    background-color: #244537;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#37664F;
+}
+
+/* footer */
+footer{
+    background-color:#244537;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p{
+    margin: 0
+}
+
+footer a{
+    color:white;
+}
+
+/* Yosemite page */
+.yosemite-banner{
+    background-color: #355342;
+}
+
+/* Yosemite picture on Yosemite page */
+.photo-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-image{
+    box-sizing: border-box;
+    width: 32%;
+    height: 220px;
+    border-radius: 8px;
+}
+
+/* Yosemite attraction boxes */
+.attraction-flex{
+    display:flex;
+    gap: 20px;
+}
+
+.attraction{
+    box-sizing: border-box;
+    width: 33%;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #D8E0D8;
+    border-radius: 10px;
+}
+
+/* Rocky Mountains Style */
+.rockies-banner{
+    background-color: #334F5C
+}
+
+/* About Rocky Mountain National Park */
+.rockies-info{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.rockies-text{
+    width: 50%;
+}
+
+.rockies-image{
+    width: 50%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Activities */
+.rockies-activities{
+    display: flex;
+    gap: 20px;
+}
+
+.activity{
+    box-sizing: border-box;
+    width: 33%;
+    background-color: white;
+    border: 1px solid #D8E0D8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.activity h3{
+    margin-top: 0;
+    font-size: 21px;
+}
+
+.activity p{
+    font-size: 16px;
+}
+
+/* Scenic Driving */
+.scenic-drive{
+    background-color: #E8EDE7;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.scenic-drive h3{
+    margin-top: 0;
+    font-size: 23px;
+}
+
+.scenic-drive p{
+    font-size: 16px;
+}
+
+/* Grand Teton National Park */
+.tetons-banner{
+    background-color: #42534A;
+}
+
+/* Wildlife Section */
+.wildlife-flex{
+    display: flex;
+    gap: 20px;
+}
+
+.wildlife{
+    box-sizing: border-box;
+    width: 33%;
+    background-color: white;
+    border: 1px solid #D8E0D8;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.wildlife h3{
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.wildlife p{
+    font-size: 16px;
+}
+
+
+/* Things to Do */
+.tetons-activities{
+    background-color: #E8EDE7;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.tetons-activities h3{
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.tetons-activities p{
+    font-size: 16px;
+}
+
+/* Acadia National Park */
+
+/* Acadia Banner */
+.acadia-banner{
+    background-color: #315C61;
+}
+
+
+
+/* Coastal Attractions */
+.acadia-attractions{
+    display: flex;
+    gap: 20px;
+}
+
+.coastal-attraction{
+    box-sizing: border-box;
+    width: 33%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #D8E0D8;
+    border-radius: 10px;
+}
+
+.coastal-attraction h3{
+    font-size: 21px;
+    margin-top: 0;
+}
+
+.coastal-attraction p{
+    font-size: 16px;
+}
+
+/* Cadillac Mountain */
+.acadia-mountains{
+    background-color: #E8EDE7;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.acadia-mountains h3{
+    font-size: 23px;
+    margin-top: 0;
+}
+
+.acadia-mountains p{
+    font-size: 16px;
+}
+
+
+
+
+/* Changing for smaller screens */
+@media (max-width: 700px){
+
+    /* Home */
+    .park-flex{
+        flex-direction: column;
+    }
+
+    .park{
+        width: 100%;
+    }
+
+    /* Navigation bar for all pages */
+    .header-container{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Yosemite */
+    .attraction-flex{
+        flex-direction: column;
+    }
+
+    .attraction{
+        width: 100%;
+    }
+
+    /* Photo galleries for Yosemite, Tetons, and Acadia */
+    .photo-flex{
+        flex-direction: column;
+    }
+
+    .gallery-image{
+        width: 100%;
+    }
+
+    /* Rocky Mountains */
+    .rockies-info{
+        flex-direction: column;
+    }
+
+    .rockies-text{
+        width: 100%;
+    }
+
+    .rockies-image{
+        width: 100%;
+        height: auto;
+    }
+
+    .rockies-activities{
+        flex-direction: column;
+    }
+
+    .activity{
+        width: 100%;
+    }
+
+    /* Grand Tetons */
+    .wildlife-flex{
+        flex-direction: column;
+    }
+
+    .wildlife{
+        width: 100%;
+    }
+
+    /* Acadia */
+    .acadia-attractions{
+        flex-direction: column;
+    }
+
+    .coastal-attraction{
+        width: 100%;
+    }
+}
