@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 14</title>
+</head>
+<body>
+    <h1>Random User Generator</h1>
+
+    <button onclick="generateProfile()">Generate Profile</button>
+
+    <div class="profile-card">
+        <img id="picture" alt="Profile Picture">
+        <h2 id="name"></h2>
+        <p id="email"></p>
+        <p id="phone"></p>
+    <script>
+         async function generateProfile() {
+            const response = await fetch('https://randomuser.me/api/');
+            const data = await response.json();
+            const user = data.results[0];
+
+            document.getElementById('picture').src = user.picture.large;
+            document.getElementById('name').textContent = user.name.first + ' ' + user.name.last;
+            document.getElementById('email').textContent = 'Email: ' + user.email;
+            document.getElementById('phone').textContent = 'Phone: ' + user.phone;
+        }
+
+        generateProfile();
+    </script>
+    
+</body>
+</html>
